@@ -26,5 +26,12 @@ namespace ProjectManejemen
         {
             this.Close();
         }
+
+        private void btnHome_Click(object sender, EventArgs e)
+        {
+            Home obj = new Home();
+            obj.Show();
+            this.Hide();
+        }
     }
 }
